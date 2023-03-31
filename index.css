@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sdr {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 1200px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .sdr {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .framedr {
+        max-width: 320px;
+    }
+}
